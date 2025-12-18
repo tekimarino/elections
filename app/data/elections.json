@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "type": "MUNICIPALE",
+    "year": 2028,
+    "round": 1,
+    "commune": "Bonoua",
+    "name": "Municipales – Bonoua",
+    "status": "ARCHIVED",
+    "created_at_utc": "2025-12-17T21:49:41.191615+00:00"
+  },
+  {
+    "id": 2,
+    "type": "LEGISLATIVE",
+    "year": 2025,
+    "round": 1,
+    "commune": "Bonoua, Bongo S/P",
+    "name": "Législatives - Circonscription 182",
+    "status": "ACTIVE",
+    "created_at_utc": "2025-12-18T06:17:51.349272+00:00"
+  }
+]

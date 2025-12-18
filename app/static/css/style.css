@@ -1,0 +1,30 @@
+.avatar{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(0,0,0,.1);
+}
+.avatar.placeholder{
+  background: linear-gradient(135deg, rgba(0,0,0,.08), rgba(0,0,0,.02));
+}
+
+/* Navbar brand logo: make it readable while keeping the navbar clean */
+.brand-logo{
+  height: 70px;
+  width: auto;
+  max-width: 220px;
+}
+
+@media (max-width: 576px){
+  .brand-logo{
+    height: 56px;
+    max-width: 180px;
+  }
+}
+
+/* Slightly reduce navbar vertical padding to compensate for larger logo */
+.navbar{
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}

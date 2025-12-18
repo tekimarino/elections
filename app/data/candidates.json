@@ -1,0 +1,78 @@
+{
+  "1": [
+    {
+      "id": "C001",
+      "name": "Candidat 1",
+      "party": "Parti A",
+      "photo": ""
+    },
+    {
+      "id": "C002",
+      "name": "Candidat 2",
+      "party": "Parti B",
+      "photo": ""
+    },
+    {
+      "id": "C003",
+      "name": "Candidat 3",
+      "party": "Parti C",
+      "photo": ""
+    },
+    {
+      "id": "C004",
+      "name": "Candidat 4",
+      "party": "Indépendant",
+      "photo": ""
+    }
+  ],
+  "2": [
+    {
+      "id": "C001",
+      "name": "BOKA Anouman Ange",
+      "party": "ADCI",
+      "photo": "/static/uploads/cand_1766038694_jpg"
+    },
+    {
+      "id": "C002",
+      "name": "ECRA Elidje",
+      "party": "EDS",
+      "photo": "/static/uploads/cand_1766038726_jpg"
+    },
+    {
+      "id": "C003",
+      "name": "AYÉMOU Abli Patrice",
+      "party": "Indépendant",
+      "photo": "/static/uploads/cand_1766038854_jpg"
+    },
+    {
+      "id": "C004",
+      "name": "ADJE Roge Cécile",
+      "party": "PDCI RDA",
+      "photo": "/static/uploads/cand_1766038964_jpg"
+    },
+    {
+      "id": "C005",
+      "name": "TRAORE Aziz",
+      "party": "RHDP",
+      "photo": "/static/uploads/cand_1766039034_jpg"
+    },
+    {
+      "id": "C006",
+      "name": "YAMOUSSOU Clément",
+      "party": "Indépendant",
+      "photo": "/static/uploads/cand_1766039121_jpg"
+    },
+    {
+      "id": "C007",
+      "name": "KOUAME Jean Michel",
+      "party": "Indépendant",
+      "photo": "/static/uploads/cand_1766039215_jpg"
+    },
+    {
+      "id": "C008",
+      "name": "MIESSAN Daniel",
+      "party": "Indépendant",
+      "photo": "/static/uploads/cand_1766039320_jpg"
+    }
+  ]
+}

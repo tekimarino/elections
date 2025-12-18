@@ -1,0 +1,46 @@
+[
+  {
+    "username": "admin",
+    "password_hash": "scrypt:32768:8:1$iuszzgF75chBRrNV$23e405061cdfb64dc3437e7637b1aea9454cb84a24bb5c053223090669894e4107b5f40944aa75d7de6676e1d94c587c02253b979fa86ea23d2b4f8678e161a9",
+    "role": "admin",
+    "full_name": "Administrateur",
+    "contacts": "",
+    "polling_station_code": null,
+    "is_active": true,
+    "center_code": null,
+    "election_id": null
+  },
+  {
+    "username": "rep1",
+    "password_hash": "scrypt:32768:8:1$Zzjsu4eejvi6eGyu$155bb58f053b01f308194191212c2e129ab7a67b16fb2e3e1c53a73c7624d5391e5c9bfec6c6bdda9ed34cd61f04b20b8c2814451243b7d8dfedf936cb95cd83",
+    "role": "rep",
+    "full_name": "Représentant 1",
+    "contacts": "",
+    "polling_station_code": "BONOUA-001-BV01",
+    "is_active": true,
+    "center_code": null,
+    "election_id": 1
+  },
+  {
+    "username": "rep2",
+    "password_hash": "scrypt:32768:8:1$1gw0VIxFvP3yVjYG$7ef13d7c5c40dae4539542ed0950c1aa355ffabec3d5f3ae13848cf08a69afb2991f201987d9c38ccd42d8020e3036e5c1344f7b614e8a6988f982ba54e8a4ac",
+    "role": "rep",
+    "full_name": "Représentant 2",
+    "contacts": "",
+    "polling_station_code": "BONOUA-001-BV02",
+    "is_active": true,
+    "center_code": null,
+    "election_id": 1
+  },
+  {
+    "username": "sup001",
+    "password_hash": "scrypt:32768:8:1$8D33eJLezUfCcXBm$237604e13c9fc75f5b472542fa67911da31471db15b6b7c63c0167120b1b526e6e0c5b167230c342482eb8c5771867aa52db1df7667f586d0674fb183f3e515c",
+    "role": "supervisor",
+    "full_name": "Superviseur Centre 001",
+    "contacts": "",
+    "polling_station_code": null,
+    "center_code": "001",
+    "is_active": true,
+    "election_id": 1
+  }
+]

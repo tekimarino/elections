@@ -1,0 +1,234 @@
+[
+  {
+    "code": "001",
+    "name": "ECOLE METHODISTE",
+    "nb_bureaux": 7,
+    "registered_total": 3081,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "002",
+    "name": "GS AWOSSI AHOULOU 1",
+    "nb_bureaux": 7,
+    "registered_total": 3072,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "003",
+    "name": "GS MOULO BROU AN 2000",
+    "nb_bureaux": 6,
+    "registered_total": 2467,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "004",
+    "name": "EPP BONOUA HARRIS 1-2",
+    "nb_bureaux": 5,
+    "registered_total": 1851,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "005",
+    "name": "GS BONOUA MUNICIPALITE",
+    "nb_bureaux": 4,
+    "registered_total": 1644,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "006",
+    "name": "EPP IMPERIE",
+    "nb_bureaux": 4,
+    "registered_total": 1461,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "007",
+    "name": "GS BONHI ADJA",
+    "nb_bureaux": 8,
+    "registered_total": 3516,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "008",
+    "name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "nb_bureaux": 10,
+    "registered_total": 4093,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "009",
+    "name": "EPP ADIAHO",
+    "nb_bureaux": 4,
+    "registered_total": 1413,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "010",
+    "name": "EPP SAMO",
+    "nb_bureaux": 8,
+    "registered_total": 3344,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "011",
+    "name": "EPP YAHOU A ET B",
+    "nb_bureaux": 7,
+    "registered_total": 2894,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "012",
+    "name": "EPP HARRIS 1-2",
+    "nb_bureaux": 6,
+    "registered_total": 2373,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "013",
+    "name": "GROUPE SCOLAIRE OBROU KOUASSI",
+    "nb_bureaux": 6,
+    "registered_total": 2290,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "014",
+    "name": "COLLEGE CHRIST-ROI",
+    "nb_bureaux": 5,
+    "registered_total": 2008,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "015",
+    "name": "GROUPE SCOLAIRE EMMANUEL",
+    "nb_bureaux": 5,
+    "registered_total": 1952,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "016",
+    "name": "EPP AMETHIER JEAN BAPTISTE",
+    "nb_bureaux": 5,
+    "registered_total": 1850,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "017",
+    "name": "PLACE PUBLIQUE KODJOBOUE",
+    "nb_bureaux": 2,
+    "registered_total": 820,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "018",
+    "name": "COLLEGE JESUS-MARIE",
+    "nb_bureaux": 2,
+    "registered_total": 637,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "019",
+    "name": "EPP ANDRE MAUD",
+    "nb_bureaux": 1,
+    "registered_total": 417,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "020",
+    "name": "FOYER DES JEUNES DE BONOUA",
+    "nb_bureaux": 3,
+    "registered_total": 1251,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "021",
+    "name": "EPP YAOU C ET D",
+    "nb_bureaux": 4,
+    "registered_total": 1363,
+    "commune": "BONOUA",
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "SP-001",
+    "name": "EPP ABROBAKRO",
+    "nb_bureaux": 1,
+    "registered_total": 164,
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "SP-002",
+    "name": "EPP ALLOHORE",
+    "nb_bureaux": 1,
+    "registered_total": 142,
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "SP-003",
+    "name": "EPP ASSE",
+    "nb_bureaux": 3,
+    "registered_total": 1182,
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "SP-004",
+    "name": "EPP SODEPALME",
+    "nb_bureaux": 1,
+    "registered_total": 431,
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "SP-005",
+    "name": "EPP LARABIA",
+    "nb_bureaux": 2,
+    "registered_total": 878,
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "SP-006",
+    "name": "EPP MEDINA",
+    "nb_bureaux": 2,
+    "registered_total": 672,
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "SP-007",
+    "name": "EPP MOHAME",
+    "nb_bureaux": 1,
+    "registered_total": 336,
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "SP-008",
+    "name": "PLACE PUBLIQUE ONO BORD",
+    "nb_bureaux": 1,
+    "registered_total": 86,
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE"
+  }
+]

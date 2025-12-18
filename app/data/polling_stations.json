@@ -1,0 +1,1091 @@
+[
+  {
+    "code": "BONOUA-001-BV01",
+    "name": "001 - ECOLE METHODISTE / BV01",
+    "centre_code": "001",
+    "centre_name": "ECOLE METHODISTE",
+    "bureau_code": "BV01",
+    "registered": 441,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-001-BV02",
+    "name": "001 - ECOLE METHODISTE / BV02",
+    "centre_code": "001",
+    "centre_name": "ECOLE METHODISTE",
+    "bureau_code": "BV02",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-001-BV03",
+    "name": "001 - ECOLE METHODISTE / BV03",
+    "centre_code": "001",
+    "centre_name": "ECOLE METHODISTE",
+    "bureau_code": "BV03",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-001-BV04",
+    "name": "001 - ECOLE METHODISTE / BV04",
+    "centre_code": "001",
+    "centre_name": "ECOLE METHODISTE",
+    "bureau_code": "BV04",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-001-BV05",
+    "name": "001 - ECOLE METHODISTE / BV05",
+    "centre_code": "001",
+    "centre_name": "ECOLE METHODISTE",
+    "bureau_code": "BV05",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-001-BV06",
+    "name": "001 - ECOLE METHODISTE / BV06",
+    "centre_code": "001",
+    "centre_name": "ECOLE METHODISTE",
+    "bureau_code": "BV06",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-001-BV07",
+    "name": "001 - ECOLE METHODISTE / BV07",
+    "centre_code": "001",
+    "centre_name": "ECOLE METHODISTE",
+    "bureau_code": "BV07",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-002-BV01",
+    "name": "002 - GS AWOSSI AHOULOU 1 / BV01",
+    "centre_code": "002",
+    "centre_name": "GS AWOSSI AHOULOU 1",
+    "bureau_code": "BV01",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-002-BV02",
+    "name": "002 - GS AWOSSI AHOULOU 1 / BV02",
+    "centre_code": "002",
+    "centre_name": "GS AWOSSI AHOULOU 1",
+    "bureau_code": "BV02",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-002-BV03",
+    "name": "002 - GS AWOSSI AHOULOU 1 / BV03",
+    "centre_code": "002",
+    "centre_name": "GS AWOSSI AHOULOU 1",
+    "bureau_code": "BV03",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-002-BV04",
+    "name": "002 - GS AWOSSI AHOULOU 1 / BV04",
+    "centre_code": "002",
+    "centre_name": "GS AWOSSI AHOULOU 1",
+    "bureau_code": "BV04",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-002-BV05",
+    "name": "002 - GS AWOSSI AHOULOU 1 / BV05",
+    "centre_code": "002",
+    "centre_name": "GS AWOSSI AHOULOU 1",
+    "bureau_code": "BV05",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-002-BV06",
+    "name": "002 - GS AWOSSI AHOULOU 1 / BV06",
+    "centre_code": "002",
+    "centre_name": "GS AWOSSI AHOULOU 1",
+    "bureau_code": "BV06",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-002-BV07",
+    "name": "002 - GS AWOSSI AHOULOU 1 / BV07",
+    "centre_code": "002",
+    "centre_name": "GS AWOSSI AHOULOU 1",
+    "bureau_code": "BV07",
+    "registered": 432,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-003-BV01",
+    "name": "003 - GS MOULO BROU AN 2000 / BV01",
+    "centre_code": "003",
+    "centre_name": "GS MOULO BROU AN 2000",
+    "bureau_code": "BV01",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-003-BV02",
+    "name": "003 - GS MOULO BROU AN 2000 / BV02",
+    "centre_code": "003",
+    "centre_name": "GS MOULO BROU AN 2000",
+    "bureau_code": "BV02",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-003-BV03",
+    "name": "003 - GS MOULO BROU AN 2000 / BV03",
+    "centre_code": "003",
+    "centre_name": "GS MOULO BROU AN 2000",
+    "bureau_code": "BV03",
+    "registered": 411,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-003-BV04",
+    "name": "003 - GS MOULO BROU AN 2000 / BV04",
+    "centre_code": "003",
+    "centre_name": "GS MOULO BROU AN 2000",
+    "bureau_code": "BV04",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-003-BV05",
+    "name": "003 - GS MOULO BROU AN 2000 / BV05",
+    "centre_code": "003",
+    "centre_name": "GS MOULO BROU AN 2000",
+    "bureau_code": "BV05",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-003-BV06",
+    "name": "003 - GS MOULO BROU AN 2000 / BV06",
+    "centre_code": "003",
+    "centre_name": "GS MOULO BROU AN 2000",
+    "bureau_code": "BV06",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-004-BV01",
+    "name": "004 - EPP BONOUA HARRIS 1-2 / BV01",
+    "centre_code": "004",
+    "centre_name": "EPP BONOUA HARRIS 1-2",
+    "bureau_code": "BV01",
+    "registered": 376,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-004-BV02",
+    "name": "004 - EPP BONOUA HARRIS 1-2 / BV02",
+    "centre_code": "004",
+    "centre_name": "EPP BONOUA HARRIS 1-2",
+    "bureau_code": "BV02",
+    "registered": 371,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-004-BV03",
+    "name": "004 - EPP BONOUA HARRIS 1-2 / BV03",
+    "centre_code": "004",
+    "centre_name": "EPP BONOUA HARRIS 1-2",
+    "bureau_code": "BV03",
+    "registered": 368,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-004-BV04",
+    "name": "004 - EPP BONOUA HARRIS 1-2 / BV04",
+    "centre_code": "004",
+    "centre_name": "EPP BONOUA HARRIS 1-2",
+    "bureau_code": "BV04",
+    "registered": 368,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-004-BV05",
+    "name": "004 - EPP BONOUA HARRIS 1-2 / BV05",
+    "centre_code": "004",
+    "centre_name": "EPP BONOUA HARRIS 1-2",
+    "bureau_code": "BV05",
+    "registered": 368,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-005-BV01",
+    "name": "005 - GS BONOUA MUNICIPALITE / BV01",
+    "centre_code": "005",
+    "centre_name": "GS BONOUA MUNICIPALITE",
+    "bureau_code": "BV01",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-005-BV02",
+    "name": "005 - GS BONOUA MUNICIPALITE / BV02",
+    "centre_code": "005",
+    "centre_name": "GS BONOUA MUNICIPALITE",
+    "bureau_code": "BV02",
+    "registered": 412,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-005-BV03",
+    "name": "005 - GS BONOUA MUNICIPALITE / BV03",
+    "centre_code": "005",
+    "centre_name": "GS BONOUA MUNICIPALITE",
+    "bureau_code": "BV03",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-005-BV04",
+    "name": "005 - GS BONOUA MUNICIPALITE / BV04",
+    "centre_code": "005",
+    "centre_name": "GS BONOUA MUNICIPALITE",
+    "bureau_code": "BV04",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-006-BV01",
+    "name": "006 - EPP IMPERIE / BV01",
+    "centre_code": "006",
+    "centre_name": "EPP IMPERIE",
+    "bureau_code": "BV01",
+    "registered": 368,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-006-BV02",
+    "name": "006 - EPP IMPERIE / BV02",
+    "centre_code": "006",
+    "centre_name": "EPP IMPERIE",
+    "bureau_code": "BV02",
+    "registered": 368,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-006-BV03",
+    "name": "006 - EPP IMPERIE / BV03",
+    "centre_code": "006",
+    "centre_name": "EPP IMPERIE",
+    "bureau_code": "BV03",
+    "registered": 365,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-006-BV04",
+    "name": "006 - EPP IMPERIE / BV04",
+    "centre_code": "006",
+    "centre_name": "EPP IMPERIE",
+    "bureau_code": "BV04",
+    "registered": 360,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-007-BV01",
+    "name": "007 - GS BONHI ADJA / BV01",
+    "centre_code": "007",
+    "centre_name": "GS BONHI ADJA",
+    "bureau_code": "BV01",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-007-BV02",
+    "name": "007 - GS BONHI ADJA / BV02",
+    "centre_code": "007",
+    "centre_name": "GS BONHI ADJA",
+    "bureau_code": "BV02",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-007-BV03",
+    "name": "007 - GS BONHI ADJA / BV03",
+    "centre_code": "007",
+    "centre_name": "GS BONHI ADJA",
+    "bureau_code": "BV03",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-007-BV04",
+    "name": "007 - GS BONHI ADJA / BV04",
+    "centre_code": "007",
+    "centre_name": "GS BONHI ADJA",
+    "bureau_code": "BV04",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-007-BV05",
+    "name": "007 - GS BONHI ADJA / BV05",
+    "centre_code": "007",
+    "centre_name": "GS BONHI ADJA",
+    "bureau_code": "BV05",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-007-BV06",
+    "name": "007 - GS BONHI ADJA / BV06",
+    "centre_code": "007",
+    "centre_name": "GS BONHI ADJA",
+    "bureau_code": "BV06",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-007-BV07",
+    "name": "007 - GS BONHI ADJA / BV07",
+    "centre_code": "007",
+    "centre_name": "GS BONHI ADJA",
+    "bureau_code": "BV07",
+    "registered": 440,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-007-BV08",
+    "name": "007 - GS BONHI ADJA / BV08",
+    "centre_code": "007",
+    "centre_name": "GS BONHI ADJA",
+    "bureau_code": "BV08",
+    "registered": 436,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-008-BV01",
+    "name": "008 - GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE / BV01",
+    "centre_code": "008",
+    "centre_name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "bureau_code": "BV01",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-008-BV02",
+    "name": "008 - GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE / BV02",
+    "centre_code": "008",
+    "centre_name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "bureau_code": "BV02",
+    "registered": 413,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-008-BV03",
+    "name": "008 - GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE / BV03",
+    "centre_code": "008",
+    "centre_name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "bureau_code": "BV03",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-008-BV04",
+    "name": "008 - GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE / BV04",
+    "centre_code": "008",
+    "centre_name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "bureau_code": "BV04",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-008-BV05",
+    "name": "008 - GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE / BV05",
+    "centre_code": "008",
+    "centre_name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "bureau_code": "BV05",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-008-BV06",
+    "name": "008 - GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE / BV06",
+    "centre_code": "008",
+    "centre_name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "bureau_code": "BV06",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-008-BV07",
+    "name": "008 - GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE / BV07",
+    "centre_code": "008",
+    "centre_name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "bureau_code": "BV07",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-008-BV08",
+    "name": "008 - GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE / BV08",
+    "centre_code": "008",
+    "centre_name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "bureau_code": "BV08",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-008-BV09",
+    "name": "008 - GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE / BV09",
+    "centre_code": "008",
+    "centre_name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "bureau_code": "BV09",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-008-BV10",
+    "name": "008 - GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE / BV10",
+    "centre_code": "008",
+    "centre_name": "GROUPE SCOLAIRE AKPA GNAGNE AHOULOU ALPHONSE",
+    "bureau_code": "BV10",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-009-BV01",
+    "name": "009 - EPP ADIAHO / BV01",
+    "centre_code": "009",
+    "centre_name": "EPP ADIAHO",
+    "bureau_code": "BV01",
+    "registered": 357,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-009-BV02",
+    "name": "009 - EPP ADIAHO / BV02",
+    "centre_code": "009",
+    "centre_name": "EPP ADIAHO",
+    "bureau_code": "BV02",
+    "registered": 352,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-009-BV03",
+    "name": "009 - EPP ADIAHO / BV03",
+    "centre_code": "009",
+    "centre_name": "EPP ADIAHO",
+    "bureau_code": "BV03",
+    "registered": 352,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-009-BV04",
+    "name": "009 - EPP ADIAHO / BV04",
+    "centre_code": "009",
+    "centre_name": "EPP ADIAHO",
+    "bureau_code": "BV04",
+    "registered": 352,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-010-BV01",
+    "name": "010 - EPP SAMO / BV01",
+    "centre_code": "010",
+    "centre_name": "EPP SAMO",
+    "bureau_code": "BV01",
+    "registered": 424,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-010-BV02",
+    "name": "010 - EPP SAMO / BV02",
+    "centre_code": "010",
+    "centre_name": "EPP SAMO",
+    "bureau_code": "BV02",
+    "registered": 424,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-010-BV03",
+    "name": "010 - EPP SAMO / BV03",
+    "centre_code": "010",
+    "centre_name": "EPP SAMO",
+    "bureau_code": "BV03",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-010-BV04",
+    "name": "010 - EPP SAMO / BV04",
+    "centre_code": "010",
+    "centre_name": "EPP SAMO",
+    "bureau_code": "BV04",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-010-BV05",
+    "name": "010 - EPP SAMO / BV05",
+    "centre_code": "010",
+    "centre_name": "EPP SAMO",
+    "bureau_code": "BV05",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-010-BV06",
+    "name": "010 - EPP SAMO / BV06",
+    "centre_code": "010",
+    "centre_name": "EPP SAMO",
+    "bureau_code": "BV06",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-010-BV07",
+    "name": "010 - EPP SAMO / BV07",
+    "centre_code": "010",
+    "centre_name": "EPP SAMO",
+    "bureau_code": "BV07",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-010-BV08",
+    "name": "010 - EPP SAMO / BV08",
+    "centre_code": "010",
+    "centre_name": "EPP SAMO",
+    "bureau_code": "BV08",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-011-BV01",
+    "name": "011 - EPP YAHOU A ET B / BV01",
+    "centre_code": "011",
+    "centre_name": "EPP YAHOU A ET B",
+    "bureau_code": "BV01",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-011-BV02",
+    "name": "011 - EPP YAHOU A ET B / BV02",
+    "centre_code": "011",
+    "centre_name": "EPP YAHOU A ET B",
+    "bureau_code": "BV02",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-011-BV03",
+    "name": "011 - EPP YAHOU A ET B / BV03",
+    "centre_code": "011",
+    "centre_name": "EPP YAHOU A ET B",
+    "bureau_code": "BV03",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-011-BV04",
+    "name": "011 - EPP YAHOU A ET B / BV04",
+    "centre_code": "011",
+    "centre_name": "EPP YAHOU A ET B",
+    "bureau_code": "BV04",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-011-BV05",
+    "name": "011 - EPP YAHOU A ET B / BV05",
+    "centre_code": "011",
+    "centre_name": "EPP YAHOU A ET B",
+    "bureau_code": "BV05",
+    "registered": 414,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-011-BV06",
+    "name": "011 - EPP YAHOU A ET B / BV06",
+    "centre_code": "011",
+    "centre_name": "EPP YAHOU A ET B",
+    "bureau_code": "BV06",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-011-BV07",
+    "name": "011 - EPP YAHOU A ET B / BV07",
+    "centre_code": "011",
+    "centre_name": "EPP YAHOU A ET B",
+    "bureau_code": "BV07",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-012-BV01",
+    "name": "012 - EPP HARRIS 1-2 / BV01",
+    "centre_code": "012",
+    "centre_name": "EPP HARRIS 1-2",
+    "bureau_code": "BV01",
+    "registered": 400,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-012-BV02",
+    "name": "012 - EPP HARRIS 1-2 / BV02",
+    "centre_code": "012",
+    "centre_name": "EPP HARRIS 1-2",
+    "bureau_code": "BV02",
+    "registered": 400,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-012-BV03",
+    "name": "012 - EPP HARRIS 1-2 / BV03",
+    "centre_code": "012",
+    "centre_name": "EPP HARRIS 1-2",
+    "bureau_code": "BV03",
+    "registered": 397,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-012-BV04",
+    "name": "012 - EPP HARRIS 1-2 / BV04",
+    "centre_code": "012",
+    "centre_name": "EPP HARRIS 1-2",
+    "bureau_code": "BV04",
+    "registered": 392,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-012-BV05",
+    "name": "012 - EPP HARRIS 1-2 / BV05",
+    "centre_code": "012",
+    "centre_name": "EPP HARRIS 1-2",
+    "bureau_code": "BV05",
+    "registered": 392,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-012-BV06",
+    "name": "012 - EPP HARRIS 1-2 / BV06",
+    "centre_code": "012",
+    "centre_name": "EPP HARRIS 1-2",
+    "bureau_code": "BV06",
+    "registered": 392,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-013-BV01",
+    "name": "013 - GROUPE SCOLAIRE OBROU KOUASSI / BV01",
+    "centre_code": "013",
+    "centre_name": "GROUPE SCOLAIRE OBROU KOUASSI",
+    "bureau_code": "BV01",
+    "registered": 384,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-013-BV02",
+    "name": "013 - GROUPE SCOLAIRE OBROU KOUASSI / BV02",
+    "centre_code": "013",
+    "centre_name": "GROUPE SCOLAIRE OBROU KOUASSI",
+    "bureau_code": "BV02",
+    "registered": 384,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-013-BV03",
+    "name": "013 - GROUPE SCOLAIRE OBROU KOUASSI / BV03",
+    "centre_code": "013",
+    "centre_name": "GROUPE SCOLAIRE OBROU KOUASSI",
+    "bureau_code": "BV03",
+    "registered": 384,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-013-BV04",
+    "name": "013 - GROUPE SCOLAIRE OBROU KOUASSI / BV04",
+    "centre_code": "013",
+    "centre_name": "GROUPE SCOLAIRE OBROU KOUASSI",
+    "bureau_code": "BV04",
+    "registered": 384,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-013-BV05",
+    "name": "013 - GROUPE SCOLAIRE OBROU KOUASSI / BV05",
+    "centre_code": "013",
+    "centre_name": "GROUPE SCOLAIRE OBROU KOUASSI",
+    "bureau_code": "BV05",
+    "registered": 378,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-013-BV06",
+    "name": "013 - GROUPE SCOLAIRE OBROU KOUASSI / BV06",
+    "centre_code": "013",
+    "centre_name": "GROUPE SCOLAIRE OBROU KOUASSI",
+    "bureau_code": "BV06",
+    "registered": 376,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-014-BV01",
+    "name": "014 - COLLEGE CHRIST-ROI / BV01",
+    "centre_code": "014",
+    "centre_name": "COLLEGE CHRIST-ROI",
+    "bureau_code": "BV01",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-014-BV02",
+    "name": "014 - COLLEGE CHRIST-ROI / BV02",
+    "centre_code": "014",
+    "centre_name": "COLLEGE CHRIST-ROI",
+    "bureau_code": "BV02",
+    "registered": 400,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-014-BV03",
+    "name": "014 - COLLEGE CHRIST-ROI / BV03",
+    "centre_code": "014",
+    "centre_name": "COLLEGE CHRIST-ROI",
+    "bureau_code": "BV03",
+    "registered": 400,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-014-BV04",
+    "name": "014 - COLLEGE CHRIST-ROI / BV04",
+    "centre_code": "014",
+    "centre_name": "COLLEGE CHRIST-ROI",
+    "bureau_code": "BV04",
+    "registered": 400,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-014-BV05",
+    "name": "014 - COLLEGE CHRIST-ROI / BV05",
+    "centre_code": "014",
+    "centre_name": "COLLEGE CHRIST-ROI",
+    "bureau_code": "BV05",
+    "registered": 400,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-015-BV01",
+    "name": "015 - GROUPE SCOLAIRE EMMANUEL / BV01",
+    "centre_code": "015",
+    "centre_name": "GROUPE SCOLAIRE EMMANUEL",
+    "bureau_code": "BV01",
+    "registered": 392,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-015-BV02",
+    "name": "015 - GROUPE SCOLAIRE EMMANUEL / BV02",
+    "centre_code": "015",
+    "centre_name": "GROUPE SCOLAIRE EMMANUEL",
+    "bureau_code": "BV02",
+    "registered": 392,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-015-BV03",
+    "name": "015 - GROUPE SCOLAIRE EMMANUEL / BV03",
+    "centre_code": "015",
+    "centre_name": "GROUPE SCOLAIRE EMMANUEL",
+    "bureau_code": "BV03",
+    "registered": 392,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-015-BV04",
+    "name": "015 - GROUPE SCOLAIRE EMMANUEL / BV04",
+    "centre_code": "015",
+    "centre_name": "GROUPE SCOLAIRE EMMANUEL",
+    "bureau_code": "BV04",
+    "registered": 392,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-015-BV05",
+    "name": "015 - GROUPE SCOLAIRE EMMANUEL / BV05",
+    "centre_code": "015",
+    "centre_name": "GROUPE SCOLAIRE EMMANUEL",
+    "bureau_code": "BV05",
+    "registered": 384,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-016-BV01",
+    "name": "016 - EPP AMETHIER JEAN BAPTISTE / BV01",
+    "centre_code": "016",
+    "centre_name": "EPP AMETHIER JEAN BAPTISTE",
+    "bureau_code": "BV01",
+    "registered": 376,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-016-BV02",
+    "name": "016 - EPP AMETHIER JEAN BAPTISTE / BV02",
+    "centre_code": "016",
+    "centre_name": "EPP AMETHIER JEAN BAPTISTE",
+    "bureau_code": "BV02",
+    "registered": 370,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-016-BV03",
+    "name": "016 - EPP AMETHIER JEAN BAPTISTE / BV03",
+    "centre_code": "016",
+    "centre_name": "EPP AMETHIER JEAN BAPTISTE",
+    "bureau_code": "BV03",
+    "registered": 368,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-016-BV04",
+    "name": "016 - EPP AMETHIER JEAN BAPTISTE / BV04",
+    "centre_code": "016",
+    "centre_name": "EPP AMETHIER JEAN BAPTISTE",
+    "bureau_code": "BV04",
+    "registered": 368,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-016-BV05",
+    "name": "016 - EPP AMETHIER JEAN BAPTISTE / BV05",
+    "centre_code": "016",
+    "centre_name": "EPP AMETHIER JEAN BAPTISTE",
+    "bureau_code": "BV05",
+    "registered": 368,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-017-BV01",
+    "name": "017 - PLACE PUBLIQUE KODJOBOUE / BV01",
+    "centre_code": "017",
+    "centre_name": "PLACE PUBLIQUE KODJOBOUE",
+    "bureau_code": "BV01",
+    "registered": 412,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-017-BV02",
+    "name": "017 - PLACE PUBLIQUE KODJOBOUE / BV02",
+    "centre_code": "017",
+    "centre_name": "PLACE PUBLIQUE KODJOBOUE",
+    "bureau_code": "BV02",
+    "registered": 408,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-018-BV01",
+    "name": "018 - COLLEGE JESUS-MARIE / BV01",
+    "centre_code": "018",
+    "centre_name": "COLLEGE JESUS-MARIE",
+    "bureau_code": "BV01",
+    "registered": 320,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-018-BV02",
+    "name": "018 - COLLEGE JESUS-MARIE / BV02",
+    "centre_code": "018",
+    "centre_name": "COLLEGE JESUS-MARIE",
+    "bureau_code": "BV02",
+    "registered": 317,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-019-BV01",
+    "name": "019 - EPP ANDRE MAUD / BV01",
+    "centre_code": "019",
+    "centre_name": "EPP ANDRE MAUD",
+    "bureau_code": "BV01",
+    "registered": 417,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-020-BV01",
+    "name": "020 - FOYER DES JEUNES DE BONOUA / BV01",
+    "centre_code": "020",
+    "centre_name": "FOYER DES JEUNES DE BONOUA",
+    "bureau_code": "BV01",
+    "registered": 419,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-020-BV02",
+    "name": "020 - FOYER DES JEUNES DE BONOUA / BV02",
+    "centre_code": "020",
+    "centre_name": "FOYER DES JEUNES DE BONOUA",
+    "bureau_code": "BV02",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-020-BV03",
+    "name": "020 - FOYER DES JEUNES DE BONOUA / BV03",
+    "centre_code": "020",
+    "centre_name": "FOYER DES JEUNES DE BONOUA",
+    "bureau_code": "BV03",
+    "registered": 416,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-021-BV01",
+    "name": "021 - EPP YAOU C ET D / BV01",
+    "centre_code": "021",
+    "centre_name": "EPP YAOU C ET D",
+    "bureau_code": "BV01",
+    "registered": 344,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-021-BV02",
+    "name": "021 - EPP YAOU C ET D / BV02",
+    "centre_code": "021",
+    "centre_name": "EPP YAOU C ET D",
+    "bureau_code": "BV02",
+    "registered": 344,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-021-BV03",
+    "name": "021 - EPP YAOU C ET D / BV03",
+    "centre_code": "021",
+    "centre_name": "EPP YAOU C ET D",
+    "bureau_code": "BV03",
+    "registered": 339,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-021-BV04",
+    "name": "021 - EPP YAOU C ET D / BV04",
+    "centre_code": "021",
+    "centre_name": "EPP YAOU C ET D",
+    "bureau_code": "BV04",
+    "registered": 336,
+    "segment": "COMMUNE"
+  },
+  {
+    "code": "BONOUA-SP-001-BV01",
+    "name": "SP-001 - EPP ABROBAKRO / BV01",
+    "centre_code": "SP-001",
+    "centre_name": "EPP ABROBAKRO",
+    "bureau_code": "BV01",
+    "registered": 164,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-002-BV01",
+    "name": "SP-002 - EPP ALLOHORE / BV01",
+    "centre_code": "SP-002",
+    "centre_name": "EPP ALLOHORE",
+    "bureau_code": "BV01",
+    "registered": 142,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-003-BV01",
+    "name": "SP-003 - EPP ASSE / BV01",
+    "centre_code": "SP-003",
+    "centre_name": "EPP ASSE",
+    "bureau_code": "BV01",
+    "registered": 398,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-003-BV02",
+    "name": "SP-003 - EPP ASSE / BV02",
+    "centre_code": "SP-003",
+    "centre_name": "EPP ASSE",
+    "bureau_code": "BV02",
+    "registered": 392,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-003-BV03",
+    "name": "SP-003 - EPP ASSE / BV03",
+    "centre_code": "SP-003",
+    "centre_name": "EPP ASSE",
+    "bureau_code": "BV03",
+    "registered": 392,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-004-BV01",
+    "name": "SP-004 - EPP SODEPALME / BV01",
+    "centre_code": "SP-004",
+    "centre_name": "EPP SODEPALME",
+    "bureau_code": "BV01",
+    "registered": 431,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-005-BV01",
+    "name": "SP-005 - EPP LARABIA / BV01",
+    "centre_code": "SP-005",
+    "centre_name": "EPP LARABIA",
+    "bureau_code": "BV01",
+    "registered": 440,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-005-BV02",
+    "name": "SP-005 - EPP LARABIA / BV02",
+    "centre_code": "SP-005",
+    "centre_name": "EPP LARABIA",
+    "bureau_code": "BV02",
+    "registered": 438,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-006-BV01",
+    "name": "SP-006 - EPP MEDINA / BV01",
+    "centre_code": "SP-006",
+    "centre_name": "EPP MEDINA",
+    "bureau_code": "BV01",
+    "registered": 336,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-006-BV02",
+    "name": "SP-006 - EPP MEDINA / BV02",
+    "centre_code": "SP-006",
+    "centre_name": "EPP MEDINA",
+    "bureau_code": "BV02",
+    "registered": 336,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-007-BV01",
+    "name": "SP-007 - EPP MOHAME / BV01",
+    "centre_code": "SP-007",
+    "centre_name": "EPP MOHAME",
+    "bureau_code": "BV01",
+    "registered": 336,
+    "segment": "SOUS_PREFECTURE"
+  },
+  {
+    "code": "BONOUA-SP-008-BV01",
+    "name": "SP-008 - PLACE PUBLIQUE ONO BORD / BV01",
+    "centre_code": "SP-008",
+    "centre_name": "PLACE PUBLIQUE ONO BORD",
+    "bureau_code": "BV01",
+    "registered": 86,
+    "segment": "SOUS_PREFECTURE"
+  }
+]
