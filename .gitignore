@@ -21,3 +21,12 @@ app/data/*.json
 
 # Option 2 : si tu veux versionner une base vide (décommente et crée un app/data/README.txt)
 # !app/data/README.txt
+__pycache__/
+*.pyc
+.venv/
+.env
+*.db
+*.log
+.DS_Store
+uploads/*
+!uploads/.keep
