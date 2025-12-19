@@ -36,7 +36,6 @@ Puis ouvrir: http://127.0.0.1:5000
 
 - **Admin**
   - username: `admin`
-  - password: `Admin123!`
 
 - **Superviseur (centre)**
   - username: `sup001`
