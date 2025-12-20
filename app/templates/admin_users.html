@@ -37,7 +37,7 @@
             <select class="form-select" name="polling_station_code" id="pollingStationSelect">
               <option value="">—</option>
               {% for s in stations %}
-                <option value="{{ s.code }}">{{ s.code }} — {{ s.centre_code|default('') }} — {{ s.centre_name|default('') }} / {{ s.bureau_code|default('') }}</option>
+                <option value="{{ s.code }}">{{ s.code }} — {{ s.name }}</option>
               {% endfor %}
             </select>
             <div class="form-text">Requis pour un représentant. (Vous pouvez aussi affecter en masse via le CSV.)</div>

@@ -1,5 +1,6 @@
 import csv
 import io
+import math
 import os
 from datetime import datetime, timezone
 from pathlib import Path
@@ -28,6 +29,137 @@ def create_app() -> Flask:
     app.secret_key = os.environ.get("SECRET_KEY", "dev-secret-change-me")
 
     _ensure_seed_data()
+
+    # -------------------------
+    # Admin – Simulation (verrouillage “impossible à rattraper”)
+    # Hypothèse: taux de participation (par défaut 70%) sur les bureaux restants.
+    # -------------------------
+    def _get_sim_turnout_rate() -> float:
+        settings = load_json("settings.json", default={})
+        raw = settings.get("simulation_turnout_rate", 0.70)
+        try:
+            rate = float(str(raw).replace(",", "."))
+        except Exception:
+            rate = 0.70
+        # Allow user to store "70" instead of "0.7"
+        if rate > 1.0:
+            rate = rate / 100.0
+        # Clamp
+        if rate <= 0.0 or rate > 1.0:
+            rate = 0.70
+        return rate
+
+    def _set_sim_turnout_rate(rate: float):
+        settings = load_json("settings.json", default={})
+        settings["simulation_turnout_rate"] = float(rate)
+        save_json("settings.json", settings)
+
+    def _compute_lock_state(election: dict) -> dict:
+        turnout_rate = _get_sim_turnout_rate()
+
+        polling_stations_all = load_json("polling_stations.json", default=[])
+        polling_stations = _filter_stations_for_election(polling_stations_all, election)
+
+        candidates = load_active_candidates()
+        results = load_active_results()
+
+        # Comptage officiel = PV validés superviseur
+        allowed_statuses = {"SUPERVISOR_VALIDATED", "VALIDATED"}  # VALIDATED au cas où (legacy)
+        validated_codes = {code for code, r in results.items() if (r.get("status") in allowed_statuses)}
+
+        remaining_stations = [s for s in polling_stations if (s.get("code") not in validated_codes)]
+        remaining_registered = 0
+        for s in remaining_stations:
+            try:
+                remaining_registered += int(s.get("registered") or 0)
+            except Exception:
+                pass
+
+        remaining_possible_votes = int(math.ceil(remaining_registered * turnout_rate))
+
+        summary = compute_summary(
+            polling_stations,
+            candidates,
+            results,
+            include_statuses=("SUPERVISOR_VALIDATED", "VALIDATED"),
+        )
+
+        ranking = summary.get("candidate_totals") or []
+        leader = ranking[0] if ranking else None
+        leader_votes = int(leader["votes"]) if leader else 0
+
+        # concurrent le plus fort (max des autres)
+        others_max = 0
+        if len(ranking) > 1:
+            others_max = max(int(c.get("votes") or 0) for c in ranking[1:])
+
+        # Verrouillage (projection taux de participation)
+        locked = bool(leader) and (leader_votes > (others_max + remaining_possible_votes))
+        votes_needed = 0 if locked else max(0, (others_max + remaining_possible_votes + 1) - leader_votes)
+
+        margin = leader_votes - others_max
+        margin_required = remaining_possible_votes + 1  # strictement >
+        progress = 1.0 if locked else (margin / margin_required if margin_required > 0 else 0.0)
+        if progress < 0:
+            progress = 0.0
+        if progress > 1:
+            progress = 1.0
+
+        meta = load_json("meta.json", default={})
+        last_update = meta.get("last_update_utc")
+
+        return {
+            "election_label": _election_label(election),
+            "last_update_utc": last_update,
+            "bureaux_total": summary.get("bureaux_total", 0),
+            "bureaux_valides": summary.get("bureaux_submitted", 0),  # ici = validés
+            "bureaux_restants": summary.get("bureaux_remaining", 0),
+            "turnout_rate": turnout_rate,
+            "inscrits_restants": remaining_registered,
+            "votes_restants_max": remaining_possible_votes,
+            "ranking": ranking,
+            "leader": leader,
+            "leader_votes": leader_votes,
+            "others_max": others_max,
+            "margin": margin,
+            "margin_required": margin_required,
+            "progress": round(progress * 100, 2),
+            "locked": locked,
+            "votes_needed_to_lock": votes_needed,
+            "rule": "V1 > V2 + ceil(taux_participation × inscrits_restants)",
+        }
+
+    @app.route("/admin/simulation", methods=["GET", "POST"])
+    @login_required
+    @role_required("admin")
+    def admin_simulation():
+        # Permet de régler le taux de participation depuis l'interface (ex: 70 ou 0.7)
+        if request.method == "POST":
+            raw = (request.form.get("turnout_rate") or "").strip()
+            try:
+                rate = float(raw.replace(",", "."))
+                if rate > 1.0:
+                    rate = rate / 100.0
+                if 0.05 <= rate <= 1.0:
+                    _set_sim_turnout_rate(rate)
+                    flash(f"Taux de participation défini à {int(rate*100)}%.", "success")
+                else:
+                    flash("Taux invalide. Entrez une valeur entre 5 et 100.", "danger")
+            except Exception:
+                flash("Taux invalide. Exemple: 70 ou 0,7.", "danger")
+            return redirect(url_for("admin_simulation"))
+
+        election = get_active_election()
+        data = _compute_lock_state(election)
+        return render_template("admin_simulation.html", election=election, data=data)
+
+    @app.get("/admin/simulation/data")
+    @login_required
+    @role_required("admin")
+    def admin_simulation_data():
+        election = get_active_election()
+        data = _compute_lock_state(election)
+        return jsonify(data)
 
     # -------------------------
     # Export helpers (CSV / PDF)

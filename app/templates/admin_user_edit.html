@@ -43,7 +43,7 @@
           <select class="form-select" name="polling_station_code">
             <option value="">—</option>
             {% for s in stations %}
-              <option value="{{ s.code }}" {% if s.code == user.polling_station_code %}selected{% endif %}>{{ s.code }} — {{ s.centre_code|default('') }} — {{ s.centre_name|default('') }} / {{ s.bureau_code|default('') }}</option>
+              <option value="{{ s.code }}" {% if s.code == user.polling_station_code %}selected{% endif %}>{{ s.code }} — {{ s.name }}</option>
             {% endfor %}
           </select>
         </div>

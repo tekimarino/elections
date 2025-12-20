@@ -20,5 +20,29 @@
       "supervisor_comment": "OK"
     }
   },
-  "2": {}
+  "2": {
+    "BONOUA-001-BV01": {
+      "polling_station_code": "BONOUA-001-BV01",
+      "polling_station_name": "001 - ECOLE METHODISTE / BV01",
+      "centre_code": "001",
+      "centre_name": "ECOLE METHODISTE",
+      "votes": {
+        "C001": 125,
+        "C002": 34,
+        "C003": 20,
+        "C004": 21,
+        "C005": 34,
+        "C006": 54,
+        "C007": 43,
+        "C008": 65
+      },
+      "total_votes": 396,
+      "status": "SUPERVISOR_VALIDATED",
+      "submitted_by": "rep3",
+      "submitted_at_utc": "2025-12-20T01:54:50.717455+00:00",
+      "supervisor_decided_by": "sup004",
+      "supervisor_decided_at_utc": "2025-12-20T01:57:56.472277+00:00",
+      "supervisor_comment": "PV conforme. Merci"
+    }
+  }
 }

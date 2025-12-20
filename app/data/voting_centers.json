@@ -2,369 +2,415 @@
   {
     "code": "001",
     "name": "ECOLE METHODISTE",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 8,
     "registered_total": 3164,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "002",
     "name": "GS AWOSSI AHOULOU 1",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 8,
     "registered_total": 3251,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "003",
     "name": "GS MOULO BROU AN 2000",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 6,
     "registered_total": 2637,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "004",
     "name": "EPP BONOUA HARRIS 1-2",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 5,
     "registered_total": 1924,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "005",
     "name": "GS BONOUA MUNICIPALITE",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 4,
     "registered_total": 1771,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "006",
     "name": "EPP IMPERIE",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 4,
     "registered_total": 1475,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "007",
     "name": "GS BONHI ADJA",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 9,
     "registered_total": 3612,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "008",
-    "name": "GROUPE SCOLAIRE AKPA GNAGNE AHOU",
+    "name": "GROUPE SCOLAIRE AKPA GNAGNE AH OU",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 10,
     "registered_total": 4387,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "009",
     "name": "EPP ADIAHO",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 4,
     "registered_total": 1442,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "010",
     "name": "EPP SAMO",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 9,
     "registered_total": 3606,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "011",
     "name": "EPP YAHOU A ET B",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 8,
     "registered_total": 3160,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "012",
     "name": "EPP HARRIS 1-2",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 6,
     "registered_total": 2462,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "013",
     "name": "GROUPE SCOLAIRE OBROU KOUASSI",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 6,
     "registered_total": 2481,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "014",
     "name": "COLLEGE CHRIST-ROI",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 5,
     "registered_total": 2102,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "015",
     "name": "GROUPE SCOLAIRE EMMANUEL",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 5,
     "registered_total": 2034,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "016",
     "name": "EPP AMETHIER JEAN BAPTISTE",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 5,
     "registered_total": 1952,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "017",
     "name": "PLACE PUBLIQUE KODJOBOUE",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 2,
     "registered_total": 797,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "018",
     "name": "COLLEGE JESUS-MARIE",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 2,
     "registered_total": 790,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "019",
     "name": "EPP ANDRE MAUD",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 1,
     "registered_total": 425,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "020",
     "name": "FOYER DES JEUNES DE BONOUA",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 4,
     "registered_total": 1495,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "021",
     "name": "EPP YAOU C ET D",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 4,
     "registered_total": 1730,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": true
   },
   {
     "code": "022",
     "name": "EPP JEAN-BAPTISTE OTRON",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 1,
     "registered_total": 387,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": false
   },
   {
     "code": "023",
     "name": "COLLEGE MODERNE YAOU BONOUA",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 1,
     "registered_total": 149,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": false
   },
   {
     "code": "024",
     "name": "EPP EKRA MATHIEU DE TCHANCTHEVE",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 1,
     "registered_total": 57,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": false
   },
   {
     "code": "025",
     "name": "COLLEGE PRIVE ELEPHANT",
+    "commune": "BONOUA",
+    "segment": "COMMUNE",
     "nb_bureaux": 2,
     "registered_total": 525,
-    "commune": "Bonoua",
-    "segment": "COMMUNE"
+    "municipal": false
   },
   {
     "code": "SP-001",
     "name": "EPP ABROBAKRO",
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 268,
-    "commune": "Bonoua",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
     "code": "SP-002",
     "name": "EPP ALLOHORE",
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 187,
-    "commune": "Bonoua",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
     "code": "SP-003",
     "name": "EPP ASSE",
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 3,
     "registered_total": 1232,
-    "commune": "Bonoua",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
     "code": "SP-004",
     "name": "EPP SODEPALME",
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 423,
-    "commune": "Bonoua",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
     "code": "SP-005",
     "name": "EPP LARABIA",
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 3,
     "registered_total": 998,
-    "commune": "Bonoua",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
     "code": "SP-006",
     "name": "EPP MEDINA",
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 2,
     "registered_total": 614,
-    "commune": "Bonoua",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
     "code": "SP-007",
     "name": "EPP MOHAME",
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 383,
-    "commune": "Bonoua",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
     "code": "SP-008",
     "name": "PLACE PUBLIQUE ONO BORD",
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 84,
-    "commune": "Bonoua",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
     "code": "SP-009",
     "name": "EPP ADAMAKRO",
+    "commune": "BONOUA",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 55,
-    "commune": "Bonoua",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-001",
+    "code": "BO-001",
     "name": "EPP AKROABA 1 PPU",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 143,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-002",
+    "code": "BO-002",
     "name": "EPP AKROABA-AKOUDJEKOA",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 2,
     "registered_total": 455,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-003",
+    "code": "BO-003",
     "name": "GS BONGO SAPH 1 ET 2",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 2,
     "registered_total": 671,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-004",
+    "code": "BO-004",
     "name": "G.S BONGO-VILLAGE",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 3,
     "registered_total": 1046,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-005",
+    "code": "BO-005",
     "name": "EPP KIMOUKRO",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 2,
     "registered_total": 453,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-006",
+    "code": "BO-006",
     "name": "GS ONO 1 A ET 4 ONO-SALCI",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 2,
     "registered_total": 771,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-007",
+    "code": "BO-007",
     "name": "EPP SADIA BAMBA ONO 14",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 355,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-008",
+    "code": "BO-008",
     "name": "EPP FANNIE BRECHAT DE WEHOU",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 133,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-009",
+    "code": "BO-009",
     "name": "MATERNELLE PK5",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 159,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-010",
+    "code": "BO-010",
     "name": "GS BONGO SAPH 3 ET 4",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 226,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-011",
+    "code": "BO-011",
     "name": "COLLEGE MODERNE BONGO",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 352,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   },
   {
-    "code": "SP-012",
+    "code": "BO-012",
     "name": "EPP OBROU KOMON",
+    "commune": "BONGO",
+    "segment": "SOUS_PREFECTURE",
     "nb_bureaux": 1,
     "registered_total": 89,
-    "commune": "Bongo",
-    "segment": "SOUS-PREFECTURE"
+    "municipal": false
   }
 ]

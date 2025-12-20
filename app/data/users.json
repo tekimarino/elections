@@ -42,5 +42,27 @@
     "center_code": "001",
     "is_active": true,
     "election_id": 1
+  },
+  {
+    "username": "rep3",
+    "password_hash": "scrypt:32768:8:1$MgOngGSruzXHmmNC$6ff4e10af5c7fd1a5b6cb436849e48f9a7f6f92ab996cba5f72f723627e8108b62c0d8c8ca289ee398c45c4252467a3e39da1e497eb40663cf5dc89114b76c1d",
+    "role": "rep",
+    "full_name": "Représentant 3",
+    "contacts": "",
+    "polling_station_code": "BONOUA-001-BV01",
+    "center_code": null,
+    "is_active": true,
+    "election_id": 2
+  },
+  {
+    "username": "sup004",
+    "password_hash": "scrypt:32768:8:1$AUnD6CPU8FxipWso$88d2864997f7fb6182f73088445b38dceed13928b304b712c30caef14448cab1c3d632a80b121cc1758ae4d8297f4ec2714af97ef69d1d18f1db5949d8e59bf4",
+    "role": "supervisor",
+    "full_name": "Superviseur Centre 002",
+    "contacts": "",
+    "polling_station_code": null,
+    "center_code": "001",
+    "is_active": true,
+    "election_id": 2
   }
 ]
