@@ -60,7 +60,16 @@
   <div class="col-md-6">
     <div class="alert alert-info h-100 mb-0">
       <div class="fw-semibold">Règle</div>
-      Les résultats publics et le classement ci-dessous sont calculés uniquement à partir des PV <strong>validés par superviseur</strong>.
+      <div>
+        Les résultats publics et le classement ci-dessous sont calculés uniquement à partir des PV <strong>validés par superviseur</strong>.
+      </div>
+      <hr class="my-2">
+      <div class="fw-semibold">Taux de participation (live)</div>
+      {% if turnout and turnout.bureaux %}
+        <div><strong>{{ turnout.percent }}%</strong> — {{ turnout.voters }} votants / {{ turnout.registered }} inscrits ({{ turnout.bureaux }} BV validés)</div>
+      {% else %}
+        <div><strong>—</strong> (0 BV validé)</div>
+      {% endif %}
     </div>
   </div>
 </div>

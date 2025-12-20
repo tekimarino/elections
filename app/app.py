@@ -853,6 +853,53 @@ def create_app() -> Flask:
         pv_rejected = sum(1 for r in results.values() if r.get("status") == "SUPERVISOR_REJECTED")
         percent_validated = round((pv_validated * 100 / total_bureaux), 2) if total_bureaux else 0
 
+        # Taux de participation "live" (calculé en temps réel à partir des PV validés par superviseur)
+        station_by_code = { (s.get("code") or "").strip(): s for s in polling_stations if (s.get("code") or "").strip() }
+        turnout_registered = 0
+        turnout_voters = 0
+        turnout_bureaux = 0
+        for code, r in results.items():
+            if (r.get("status") or "") != "SUPERVISOR_VALIDATED":
+                continue
+            station = station_by_code.get((code or "").strip())
+            if not station:
+                continue
+
+            # Inscrits (priorité aux valeurs du PV si présentes)
+            reg_val = r.get("registered", None)
+            if reg_val is None:
+                reg_val = station.get("registered", 0)
+
+            # Votants (priorité au champ voters; sinon on reconstruit si possible)
+            voters_val = r.get("voters", None)
+            if voters_val is None:
+                votes_dict = r.get("votes") or {}
+                try:
+                    votes_sum = sum(int(v) for v in votes_dict.values())
+                except Exception:
+                    votes_sum = 0
+                try:
+                    blank = int(r.get("blank_ballots") or 0)
+                except Exception:
+                    blank = 0
+                try:
+                    nulls = int(r.get("null_ballots") or 0)
+                except Exception:
+                    nulls = 0
+                voters_val = votes_sum + blank + nulls
+
+            try:
+                turnout_registered += int(reg_val or 0)
+            except Exception:
+                pass
+            try:
+                turnout_voters += int(voters_val or 0)
+            except Exception:
+                pass
+            turnout_bureaux += 1
+
+        turnout_percent = round((turnout_voters * 100 / turnout_registered), 2) if turnout_registered else 0
+
         stats = {
             "bureaux_total": total_bureaux,
             "pv_received": pv_received,
@@ -862,7 +909,12 @@ def create_app() -> Flask:
             "percent_validated": percent_validated,
         }
 
-        return render_template("admin_dashboard.html", election=election, summary=summary, stats=stats)
+        return render_template("admin_dashboard.html", election=election, summary=summary, stats=stats, turnout={
+            "percent": turnout_percent,
+            "voters": turnout_voters,
+            "registered": turnout_registered,
+            "bureaux": turnout_bureaux,
+        })
 
     @app.route("/admin/elections", methods=["GET", "POST"])
     @login_required
