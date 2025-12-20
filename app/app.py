@@ -249,20 +249,32 @@ def create_app() -> Flask:
 
     def _filter_centers_for_election(centers: list, election: dict) -> list:
         allowed = _allowed_segments_for_election(election)
+        etype = (election or {}).get("type") or ""
+        is_municipal = str(etype).upper().startswith("MUNIC")
         out = []
         for c in centers or []:
             seg = (c.get("segment") or "COMMUNE").upper().strip()
-            if seg in allowed:
-                out.append(c)
+            if seg not in allowed:
+                continue
+            # Le flag "municipal" sert uniquement à filtrer les élections municipales.
+            # Pour les législatives, on conserve tous les centres autorisés par segment.
+            if is_municipal and not bool(c.get("municipal", False)):
+                continue
+            out.append(c)
         return out
 
     def _filter_stations_for_election(stations: list, election: dict) -> list:
         allowed = _allowed_segments_for_election(election)
+        etype = (election or {}).get("type") or ""
+        is_municipal = str(etype).upper().startswith("MUNIC")
         out = []
         for s in stations or []:
             seg = (s.get("segment") or "COMMUNE").upper().strip()
-            if seg in allowed:
-                out.append(s)
+            if seg not in allowed:
+                continue
+            if is_municipal and not bool(s.get("municipal", False)):
+                continue
+            out.append(s)
         return out
 
 
@@ -1203,7 +1215,8 @@ def create_app() -> Flask:
                 future_codes = []
                 for s in to_update:
                     bureau_code = (s.get("bureau_code") or "").strip() or "BV??"
-                    future_codes.append(f"BONOUA-{new_code}-{bureau_code}")
+                    prefix = ((s.get("code") or "").split("-")[0] or "").strip().upper() or str(commune).upper()
+                    future_codes.append(f"{prefix}-{new_code}-{bureau_code}")
                 if len(future_codes) != len(set(future_codes)) or any(fc in existing_codes for fc in future_codes):
                     flash("Changement de code impossible: conflit de codes bureaux.", "danger")
                     return redirect(url_for("admin_voting_center_edit", centre_code=centre_code))
@@ -1214,10 +1227,12 @@ def create_app() -> Flask:
                 for s in to_update:
                     old_ps_code = s.get("code")
                     bureau_code = (s.get("bureau_code") or "").strip() or "BV??"
-                    new_ps_code = f"BONOUA-{new_code}-{bureau_code}"
+                    prefix = ((old_ps_code or "").split("-")[0] or "").strip().upper() or str(commune).upper()
+                    new_ps_code = f"{prefix}-{new_code}-{bureau_code}"
                     s["centre_code"] = new_code
                     s["centre_name"] = new_name
                     s["code"] = new_ps_code
+                    s["commune"] = prefix
                     s["name"] = f"{new_code} - {new_name} / {bureau_code}"
 
                     # user assignments
@@ -1437,7 +1452,8 @@ def create_app() -> Flask:
             centre_name = next((c.get("name") for c in centers if (c.get("code") or "").zfill(3) == centre_code), station.get("centre_name") or centre_code)
 
             old_code = station.get("code")
-            new_code = f"BONOUA-{centre_code}-{bureau_code}"
+            prefix = ((old_code or "").split("-")[0] if old_code else "").strip().upper() or "BONOUA"
+            new_code = f"{prefix}-{centre_code}-{bureau_code}"
 
             if new_code != old_code and any(s.get("code") == new_code for s in stations):
                 flash("Impossible: ce code de bureau existe déjà.", "danger")
@@ -1450,6 +1466,7 @@ def create_app() -> Flask:
             station["registered"] = registered
             station["name"] = f"{centre_code} - {centre_name} / {bureau_code}"
             station["code"] = new_code
+            station["commune"] = prefix
 
             # Cascade updates if code changed
             if new_code != old_code:
@@ -1603,6 +1620,9 @@ def create_app() -> Flask:
         stations_scope = _filter_stations_for_election(stations_all, view_election)
         centers_scope = _filter_centers_for_election(centers, view_election)
         station_codes_all = {(s.get("code") or "").strip() for s in stations_all if (s.get("code") or "").strip()}
+        # Codes des bureaux valides dans le périmètre de l'élection consultée
+        # (sert à valider la sélection lors de l'ajout d'un représentant)
+        station_codes_scope = {(s.get("code") or "").strip() for s in stations_scope if (s.get("code") or "").strip()}
 
         station_map = {((s.get("code") or "").strip()): s for s in stations_all if (s.get("code") or "").strip()}
         center_map = {((c.get("code") or "").strip()): c for c in centers if (c.get("code") or "").strip()}
@@ -1978,6 +1998,11 @@ def create_app() -> Flask:
         stations_all = load_json("polling_stations.json", default=[])
         centers = load_json("voting_centers.json", default=[])
         station_codes_all = {(s.get("code") or "").strip() for s in stations_all if (s.get("code") or "").strip()}
+        # Scope = élection active (les représentants/superviseurs ne s'attachent qu'à l'élection active)
+        active_election = get_election_by_id(active_id) or {}
+        stations_scope = _filter_stations_for_election(stations_all, active_election)
+        centers_scope = _filter_centers_for_election(centers, active_election)
+        station_codes_scope = {(s.get("code") or "").strip() for s in stations_scope if (s.get("code") or "").strip()}
         u = next((x for x in users if x.get("username") == username), None)
         if not u:
             flash("Utilisateur introuvable.", "danger")
